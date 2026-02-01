@@ -29,7 +29,7 @@ An interactive chess game built with Python that features a GUI powered by custo
 pip install customtkinter python-chess pillow
 ```
 
-2. Ensure you have the necessary asset files in the project directory:
+2. Ensure you have the necessary asset files in the `images/` folder:
    - Chess piece images (white_pawn.png, black_king.png, etc.)
    - Chess wallpaper (Chess Wallpaper.jpeg)
    - Chess logo (chess.png)
@@ -75,6 +75,22 @@ The AI uses a genetic algorithm to evaluate move sequences:
 Chess.py                    # Main application file
 Chess.iml                   # IntelliJ IDEA project file
 README.md                   # This file
+images/                     # Folder containing all image assets
+  ├── chess.png            # Chess logo
+  ├── Chess Wallpaper.jpeg # Main menu background
+  ├── white_pawn.png       # White pawn piece
+  ├── white_knight.png     # White knight piece
+  ├── white_bishop.png     # White bishop piece
+  ├── white_rook.png       # White rook piece
+  ├── white_queen.png      # White queen piece
+  ├── white_king.png       # White king piece
+  ├── black_pawn.png       # Black pawn piece
+  ├── black_knight.png     # Black knight piece
+  ├── black_bishop.png     # Black bishop piece
+  ├── black_rook.png       # Black rook piece
+  ├── black_queen.png      # Black queen piece
+  ├── black_king.png       # Black king piece
+  └── default.png          # Default/empty square image
 ```
 
 ## Controls
